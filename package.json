@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "homepage": "http://Abdunurlgn.github.io/Dental-Clinik",
+  "homepage": "http://Abdunurlgn.github.io/AURA-LUXE",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deplop": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
@@ -26,6 +26,8 @@
     "@vitejs/plugin-react": "^6.1.2",
     "gh-pages": "^6.3.0",
     "oxlint": "^1.90.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "vite": "^8.3.6"
   }
 }
